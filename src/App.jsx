@@ -8,6 +8,7 @@ import MerchandiseSection from "./components/Merchandise";
 import GallerySection from "./components/Gallery";
 import Footer from "./components/Footer";
 import EventsSection from "./components/Events";
+import CountdownTimer from "./components/Countdown";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -37,9 +38,11 @@ function App() {
       <main>
         <HeroSection />
         <AboutSection />
-        <MerchandiseSection />
+        
         <GallerySection />
+        <CountdownTimer/>
         <EventsSection />
+        <MerchandiseSection />
       </main>
       <Footer />
     </div>

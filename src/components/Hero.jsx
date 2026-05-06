@@ -132,14 +132,14 @@ const HeroSection = () => {
           unforgettable memories come alive.
         </motion.p>
 
-        {/* Countdown */}
+        {/* Countdown
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 1.2 }}
         >
           <CountdownTimer targetDate={eventDate} />
-        </motion.div>
+        </motion.div> */}
       </div>
 
       {/* Scroll indicator */}

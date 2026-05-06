@@ -12,7 +12,7 @@ const Navbar = ({ onMenuToggle }) => {
 
         {/* Desktop links */}
         <div className="hidden md:flex items-center space-x-8">
-          {["Home","About","Merchandise","Gallery","Events"].map((item) => (
+          {["Home","About","Gallery","Events","Merchandise"].map((item) => (
             <a
               key={item}
               href={`#${item.toLowerCase()}`}
