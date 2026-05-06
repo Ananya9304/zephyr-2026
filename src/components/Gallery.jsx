@@ -13,7 +13,7 @@ const GallerySection = () => {
   const [selected, setSelected] = useState(null);
 
   return (
-    <section className="py-20 px-4 text-center bg-[#0f0a07]">
+    <section id="gallery" className="py-20 px-4 text-center bg-[#0f0a07]">
       
       {/* Heading */}
       <h2 className="text-3xl md:text-4xl mb-12 text-yellow-500 tracking-wide">

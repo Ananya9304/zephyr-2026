@@ -6,7 +6,7 @@ const HeroSection = () => {
   const eventDate = "2025-05-10T18:00:00";
 
   return (
-    <section className="relative h-screen flex items-center justify-center overflow-hidden">
+    <section id="home" className="relative h-screen flex items-center justify-center overflow-hidden">
 
       {/* 🌌 Background (dark + subtle zoom animation) */}
       <motion.div
