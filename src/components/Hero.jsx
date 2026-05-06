@@ -75,21 +75,36 @@ const HeroSection = () => {
 
         {/* Title */}
         <motion.h1
-          initial={{ opacity: 0, y: 40, letterSpacing: "0.5em" }}
-          animate={{ opacity: 1, y: 0, letterSpacing: "0.1em" }}
-          transition={{ duration: 1.2, delay: 0.4 }}
-          className="text-[clamp(4rem,12vw,9rem)] font-extrabold mb-2"
-          style={{
-            fontFamily: "'Cinzel', serif",
-            background:
-              "linear-gradient(135deg, #EDD9A3 0%, #C9963A 35%, #E8C97A 55%, #B5804B 75%, #C9963A 100%)",
-            WebkitBackgroundClip: "text",
-            WebkitTextFillColor: "transparent",
-            filter: "drop-shadow(0 6px 25px rgba(201,150,58,0.4))",
-          }}
-        >
-          Zephyr
-        </motion.h1>
+  initial={{ opacity: 0, y: 40, letterSpacing: "0.5em" }}
+  animate={{ opacity: 1, y: 0, letterSpacing: "0.1em" }}
+  transition={{ duration: 1.2, delay: 0.4 }}
+  className="text-[clamp(4rem,12vw,9rem)] font-extrabold mb-2 shine-text"
+  style={{
+    fontFamily: "'Cinzel', serif",
+    background:
+      "linear-gradient(120deg, #EDD9A3 0%, #C9963A 30%, #ffffff 45%, #C9963A 60%, #EDD9A3 100%)",
+    backgroundSize: "200% auto",
+    WebkitBackgroundClip: "text",
+    WebkitTextFillColor: "transparent",
+    filter: "drop-shadow(0 6px 25px rgba(201,150,58,0.4))",
+  }}
+>
+  Zephyr
+</motion.h1>
+<style>{`
+  .shine-text {
+    animation: shineMove 3s linear infinite;
+  }
+
+  @keyframes shineMove {
+    0% {
+      background-position: -200% center;
+    }
+    100% {
+      background-position: 200% center;
+    }
+  }
+`}</style>
 
         {/* Year */}
         <motion.div

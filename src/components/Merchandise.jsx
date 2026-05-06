@@ -12,6 +12,7 @@ const MerchandiseSection = () => {
 >
   {/* LEFT BACKGROUND IMAGE */}
 <div
+className="merch-bg"
   style={{
     position: "absolute",
     inset: 0,
