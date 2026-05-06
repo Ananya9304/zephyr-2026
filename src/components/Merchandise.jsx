@@ -338,6 +338,7 @@ const MerchandiseSection = () => {
                   </p>
 
                   <a
+                  //form added
                     href="https://docs.google.com/forms/d/e/1FAIpQLSc259GgvZLXAi6F_37xh6CYoYbPfwOWCyVipkKYUFOCFHI_vg/viewform?usp=publish-editor"
                     target="_blank"
                     rel="noopener noreferrer"
