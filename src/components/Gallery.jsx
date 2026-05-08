@@ -3,10 +3,10 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const images = [
   "/images/band-1.jpg",
-  "/images/ramp_2022.jpg",
-  "/images/Group-dance-2.jpg",
-  "/images/groupfie.jpg",
-  "/images/inaug.jpg",
+  "/images/fitoor.jpeg",
+  "/images/dance.jpeg",
+  "/images/fourth.jpeg",
+  "/images/inaug.jpeg",
 ];
 
 const GallerySection = () => {
